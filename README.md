@@ -1,16 +1,22 @@
 # chatgpt_setting
 
-A new Flutter project.
+ChatGPT様が創造されたアプリ
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+特殊な設定はない。
+SharedPreferneceを別途導入すればOK
 
-A few resources to get you started if this is your first Flutter project:
+## プロンプト
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+以下の要件をもつ flutter のサンプルを記載してください。
+・設定データを表示・編集するアプリ
+・データの保存にはSharedPreferenceのプラグインを利用
+・画面 1 - 保存データ表示画面 - SharedPreference のキー値 "settings1" に保存された value を取得し、画面中央に表示する
+・画面 1 - 編集ボタンが存在し、クリックすると画面 2 - 編集画面に進む
+・画面 2 - 入力フォームがある。初期値は現在の settings1 の値を取得して表示する
+・画面2 - 保存ボタンがある。押下すると、フォームに入力した値を取得し、settings1 の valueを書き換える。
+・保存に成功したら、保存されました。とボタンの下に表示される。
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+・ユーザーインターフェースは中央揃えするなどして、綺麗にしてください
+・メインのカラーはレッド系です。目に優しいものにしてください。
